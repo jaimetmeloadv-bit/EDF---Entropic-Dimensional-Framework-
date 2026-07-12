@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "generated_at": "2026-06-25T12:33:12.963075Z",
+    "params": {
+      "saturation_threshold": 1e-08,
+      "deg_thresh": 1e-12,
+      "tiny_thresh": 1e-08,
+      "prob3d_bins": 32,
+      "max_evecs_process": 8,
+      "Ks_single_cycle": null,
+      "h_SI_reference": "CODATA 2018 (or user-specified)"
+    },
+    "h_EDF": 0.3629310150506004,
+    "h_SI_reference": "CODATA 2018",
+    "Ks_single_cycle": 1.8257106378952438e-33
+  },
+  "blocks": {
+    "block_001": {
+      "N_eigs": 20,
+      "mean_first10": 0.050172222164296454,
+      "degeneracies": 0,
+      "tiny_gaps": 0,
+      "saturated": false,
+      "prob3d_entropy": 3.4755156661173405,
+      "meta": {
+        "generated_at": "2026-06-25T12:36:42.740806Z"
+      }
+    }
+  }
+}

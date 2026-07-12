@@ -1,0 +1,8 @@
+Start generate_results_v2 at 2026-06-24T16:23:48Z
+Inputs: ['.\\data\\results.json', '.\\data\\results_clean_serializable.json']
+Output: data\results_v2.json
+Params: {'saturation_threshold': 1e-08, 'deg_thresh': 1e-12, 'tiny_thresh': 1e-08, 'prob3d_bins': 32, 'max_evecs_process': 8}
+Input not found: data\results.json
+Input not found: data\results_clean_serializable.json
+Merged 0 blocks
+Wrote output to data\results_v2.json

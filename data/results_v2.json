@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "generated_at": "2026-06-24T16:23:48Z",
+    "source_files": [
+      ".\\data\\results.json",
+      ".\\data\\results_clean_serializable.json"
+    ],
+    "params": {
+      "saturation_threshold": 1e-08,
+      "deg_thresh": 1e-12,
+      "tiny_thresh": 1e-08,
+      "prob3d_bins": 32,
+      "max_evecs_process": 8
+    }
+  },
+  "blocks": {}
+}
