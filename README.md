@@ -5,7 +5,7 @@ This repository contains Jupyter notebooks demonstrating that energy distributio
 ## Publication
 
 This work is based on research published at:
-- **[Energy Distribution Quantization: The 12-Sector Model and Golden Ratio Evolution](https://www.preprints.org/manuscript/202512.2652)** - Jaime Melo, December 2025 (Preprints.org)
+- **[The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652)** - Jaime Melo, December 2025 (Preprints.org)
 
 ## Contents
 
