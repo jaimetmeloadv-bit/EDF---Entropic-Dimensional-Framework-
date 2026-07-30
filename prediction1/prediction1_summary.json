@@ -1,0 +1,23 @@
+{
+  "prediction1_summary": {
+    "prediction": "Core Prediction 1 - 12-fold kernel",
+    "alpha": 0.05,
+    "global_p_chi2": 0.8490207623910452,
+    "global_p_ks": 0.1196992259151951,
+    "n_blocks": 12,
+    "n_blocks_chi2_pass": 12,
+    "n_blocks_ks_pass": 12,
+    "threshold_blocks_chi2_pass": 10,
+    "status": "PASS"
+  },
+  "global_result": {
+    "N_total_angles": 2400,
+    "chi2_stat_global": 6.35,
+    "p_chi2_global": 0.8490207623910452,
+    "ks_d_global": 0.024150141097974753,
+    "p_ks_global": 0.1196992259151951,
+    "max_bin_global": 217,
+    "min_bin_global": 181,
+    "bin_range_global": 36
+  }
+}
