@@ -1,0 +1,52 @@
+{
+  "blocks_meta": {
+    "block_001": {
+      "generated_at_utc": "2026-07-27T15:49:30.703807+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_002": {
+      "generated_at_utc": "2026-07-27T15:49:30.703807+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_003": {
+      "generated_at_utc": "2026-07-27T15:49:30.703807+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_004": {
+      "generated_at_utc": "2026-07-27T15:49:30.704979+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_005": {
+      "generated_at_utc": "2026-07-27T15:49:30.705994+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_006": {
+      "generated_at_utc": "2026-07-27T15:49:30.779037+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_007": {
+      "generated_at_utc": "2026-07-27T15:49:30.782239+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_008": {
+      "generated_at_utc": "2026-07-27T15:49:30.783530+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_009": {
+      "generated_at_utc": "2026-07-27T15:49:30.783530+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_010": {
+      "generated_at_utc": "2026-07-27T15:49:30.783530+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_011": {
+      "generated_at_utc": "2026-07-27T15:49:30.784571+00:00",
+      "generator": "EDF-complete.ipynb"
+    },
+    "block_012": {
+      "generated_at_utc": "2026-07-27T15:49:30.784571+00:00",
+      "generator": "EDF-complete.ipynb"
+    }
+  }
+}
