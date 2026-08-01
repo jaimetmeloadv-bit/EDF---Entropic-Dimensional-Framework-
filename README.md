@@ -1,22 +1,32 @@
 # EDF - Entropic Dimensional Framework
 
-This repository contains Jupyter notebooks demonstrating that energy distribution is quantized by 12 sectors when the factor of amplitude and/or phase evolution is determined by the golden ratio.
+This repository contains Jupyter notebooks demonstrating that energy distribution is quantized by 12 sectors when amplitude/phase evolution is governed by the golden ratio.
+
+## Start Here
+
+- **Main notebook:** [EDF-complete.ipynb](./EDF-complete.ipynb)
+- **Notebook viewer (no local setup):**  
+  [Open in nbviewer](https://nbviewer.org/github/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/blob/main/EDF-complete.ipynb)
+- **HTML version (GitHub Pages):**  
+  *(enable Pages first; link will work after step 4)*  
+  `https://jaimetmeloadv-bit.github.io/EDF---Entropic-Dimensional-Framework-/`
 
 ## Publication
 
-This work is based on research published at:
-- **[The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652)** - Jaime Melo, December 2025 (Preprints.org)
+- **[The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652)**  
+  Jaime Melo, December 2025 (Preprints.org)
 
 ## Contents
 
-The repository includes Jupyter notebooks implementing the theoretical framework and computational demonstrations of the EDF model.
+- `EDF-complete.ipynb` — complete pipeline (200 eigenvalues; validation/tests/figures)
+- `docs/index.html` — browser-ready HTML rendering of the notebook (for Pages)
 
 ## How to Use
 
-1. Clone the repository
-2. Install required dependencies (see requirements if available)
-3. Run the Jupyter notebooks to explore the energy distribution model
+1. Open the notebook on GitHub or nbviewer.
+2. (Optional) Run locally in Jupyter for full interactivity.
+3. Open the GitHub Pages URL for static HTML presentation.
 
 ## License
 
-This work and its implementation are provided as-is for research and educational purposes.
+Provided as-is for research and educational purposes.
