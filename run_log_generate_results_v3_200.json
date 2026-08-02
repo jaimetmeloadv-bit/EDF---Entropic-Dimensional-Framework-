@@ -1,0 +1,12 @@
+{
+  "run_at_utc": "2026-08-02T15:24:20.002307+00:00",
+  "results_path": "C:\\Users\\jaime\\EDF-complete\\notebooks\\EDF-complete\\data\\output\\results_serializable_v3_200.json",
+  "cleaned_meta_path": "C:\\Users\\jaime\\EDF-complete\\notebooks\\EDF-complete\\data\\output\\results_cleaned_meta_v3_200.json",
+  "validation_status": true,
+  "summary": {
+    "global_spacing_mean": 0.004984574929479731,
+    "global_spacing_std": 0.004950782183204792,
+    "global_entropy_mean": 7.048038473092991,
+    "global_entropy_std": 0.055178555622988644
+  }
+}
