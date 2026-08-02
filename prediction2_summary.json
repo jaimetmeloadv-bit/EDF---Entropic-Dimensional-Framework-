@@ -1,0 +1,33 @@
+{
+  "prediction": "Core Prediction 2 - Triplication A\u2192AAA",
+  "energy_tolerance": 1e-10,
+  "cond_energy_raw_to3": true,
+  "cond_energy_norm_to1": true,
+  "cond_peaks_noncollapse": true,
+  "status": "PASS",
+  "aggregate_metrics": {
+    "ratio_raw_mean": 3.0,
+    "ratio_raw_std": 2.8665835232995054e-16,
+    "ratio_norm_mean": 1.0,
+    "ratio_norm_std": 2.0521614974769298e-16,
+    "err_raw_to3_mean": 6.16790569236198e-17,
+    "err_norm_to1_mean": 1.5728159515523052e-16
+  },
+  "peak_stats": {
+    "A": {
+      "n_peaks": 17,
+      "mean_spacing": 0.36542831213631277,
+      "std_spacing": 0.1316926893464846
+    },
+    "AAA_raw": {
+      "n_peaks": 17,
+      "mean_spacing": 0.36542831213631277,
+      "std_spacing": 0.1316926893464846
+    },
+    "AAA_norm": {
+      "n_peaks": 17,
+      "mean_spacing": 0.36542831213631277,
+      "std_spacing": 0.1316926893464846
+    }
+  }
+}
