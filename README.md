@@ -1,15 +1,18 @@
-This repository contains the Jupyter notebook for the baselines and predictions of the Entropic Dimensional Framework.
+. This repository contains the Jupyter notebook for the baselines and predictions of the Physics thesis posted at Preprints.org: 
 
-The notebook github site:
-URL
+- [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652)
+- Jaime Melo, December 2025 (Preprints.org)
+- (https://creativecommons.org/licenses/by/4.0/)
+##
+ . The main branch gathers the raw detailed notebook coding and data.
+- [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-)
 
-## License
-Provided as-is for research and educational purposes.
+##
 
+ . To clone it:
+- do this
 
-The Article´s publication site:
-- **[The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652)**  
-  Jaime Melo, December 2025 (Preprints.org)
-## License
-https://creativecommons.org/licenses/by/4.0/
+##
 
+. A full clean analysis is at page:
+-[EDF - Core Predictions Validation](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/wiki)
