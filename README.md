@@ -8,11 +8,27 @@
 - [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-)
 
 ##
-
- . To clone it:
-- do this
+. A full clean analysis is at page:
+-[EDF - Core Predictions Validation](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/wiki)
 
 ##
 
-. A full clean analysis is at page:
--[EDF - Core Predictions Validation](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/wiki)
+#🚀 Running the Notebook
+
+. Prerequisites
+
+```bash
+pip install numpy pandas matplotlib scipy
+```
+
+. Execution
+
+```bash
+jupyter notebook EDF-notebook.ipynb
+```
+
+. Or run in headless mode:
+
+```bash
+jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebook_executed.ipynb
+```
