@@ -4,8 +4,8 @@
 - Jaime Melo, December 2025 (Preprints.org)
 - (https://creativecommons.org/licenses/by/4.0/)
 ##
- . The main branch gathers the raw detailed notebook coding and data.
-- [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-)
+ . The branch "notebook-pipeline" gathers the raw detailed notebook coding and data.
+- [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
 
 ##
 . A full clean analysis is at page:
