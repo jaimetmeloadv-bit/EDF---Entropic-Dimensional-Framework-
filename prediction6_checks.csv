@@ -1,7 +1,0 @@
-metric,value,target,abs_or_rel_error,pass_rule,pass
-S0_normalized_entropy,0.9220527307304962,0.85,0.0,0.85 <= S0/log2(200) <= 1.00,True
-entropy_drop_dS,6.048561221727659,0.0,6.048561221727659,dS > 0 (strict descent overall),True
-crossings_mean,12.0,12.0,0.0,exact or numerically equal,True
-Lk_mean,6.0,6.0,0.0,exact or numerically equal,True
-Wr_bound_margin,9.49116237198198,0.0,9.49116237198198,margin >= 0 (|Wr|<=12),True
-Wr_nontriviality,2.0651995031639196,1.0,2.0651995031639196,mean|Wr| >= 1,True
