@@ -16,6 +16,8 @@
 
 #🚀 Running the Notebook
 
+[notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
+
 . Prerequisites
 
 ```bash
