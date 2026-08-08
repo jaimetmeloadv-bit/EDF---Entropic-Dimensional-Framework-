@@ -1,22 +1,10 @@
+## This repository contains a self-contained Jupyter Notebook that implements **EDF- notebook**, an independent validation pipeline for the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
 
-## This repository contains the Jupyter notebook for the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+If you will, run it via nbviewer [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
+For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
 
-##
-## Click here for running the [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
-
-##
-## For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
-
-## A full clean analysis at: [EDF - Core Predictions Validation](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/wiki)
-
-##
-# EDF: The Entropic Dimensional Framework — Core Predictions Validation
-*A complete Jupyter Notebook implementation validating the foundational hallmarks of the Entropic Dimensional Framework (EDF) against synthetic eigenvalue spectra.*
-## 📌 Overview
-
-This repository contains a self-contained Jupyter Notebook that implements **EDF- notebook**, an independent validation pipeline for the **Entropic Dimensional Framework** as described in the Preprint.org article *"EDF: Entropic Dimensional Framework"*.
-
-The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
+### Overview - 
+## The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 ### Key Features
 
