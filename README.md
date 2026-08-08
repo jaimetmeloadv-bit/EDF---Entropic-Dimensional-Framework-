@@ -1,4 +1,7 @@
-Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+This is a brief analysis of the Jupyter Notebook referred to the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+
+If you will, run it via nbviewer by clicking here: [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
+For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
 
 Theoretical Foundations. The EDF framework posits that:
 1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
@@ -10,9 +13,6 @@ Theoretical Foundations. The EDF framework posits that:
 
 Overview
 The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
-
-If you will, run it via nbviewer [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
-For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
 
 Key Features
 
