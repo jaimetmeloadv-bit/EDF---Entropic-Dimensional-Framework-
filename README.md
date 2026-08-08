@@ -1,10 +1,19 @@
-## This repository contains a self-contained Jupyter Notebook that implements **EDF- notebook**, an independent validation pipeline for the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+## Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+
+## Theoretical Foundations
+The EDF framework posits that:
+1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
+2. **Shannon entropy** of normalized probability vectors decreases monotonically under coarse‑graining, reflecting information loss at larger scales.
+3. **Braid closures** in B₃ naturally yield linking numbers Lk = n/2 for n crossings, with the word `(σ₁σ₂)⁶` producing Lk = 6.
+4. **Călugăreanu identity** (Lk = Tw + Wr) provides a topological invariant across the chain, with |Wr| bounded by twice the number of crossings (|Wr| ≤ 12 for n=12).
+5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
+6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
+
+## Overview - 
+## The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 If you will, run it via nbviewer [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
 For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
-
-### Overview - 
-## The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 ### Key Features
 
@@ -237,26 +246,6 @@ EDF-complete/
 └── logs/
     └── run_log_generate_results_v3_200.json
 ```
-
----
-
-## 🔬 Theoretical Foundations
-
-The EDF framework posits that:
-
-1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
-
-2. **Shannon entropy** of normalized probability vectors decreases monotonically under coarse‑graining, reflecting information loss at larger scales.
-
-3. **Braid closures** in B₃ naturally yield linking numbers Lk = n/2 for n crossings, with the word `(σ₁σ₂)⁶` producing Lk = 6.
-
-4. **Călugăreanu identity** (Lk = Tw + Wr) provides a topological invariant across the chain, with |Wr| bounded by twice the number of crossings (|Wr| ≤ 12 for n=12).
-
-5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
-
-6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
-
----
 
 ## 🚀 Running the Notebook
 
