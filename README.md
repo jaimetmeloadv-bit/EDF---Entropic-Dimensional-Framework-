@@ -8,15 +8,11 @@ Theoretical Foundations. The EDF framework posits that:
 5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
 6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
 
-#
-
 Overview
 The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 If you will, run it via nbviewer [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
 For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
-
-#
 
 Key Features
 
@@ -32,13 +28,9 @@ Key Features
 
 ---
 
-#
-
 Baseline Characterization
 
 The baseline generation establishes a controlled synthetic environment derived from the EDF framework's core assumptions:
-
-#
 
 Spacing Distribution
 
@@ -53,7 +45,6 @@ Spacing Distribution
 
 The spacing histogram exhibits the characteristic near‑uniform distribution expected from the EDF eigenvalue model. The absence of degeneracy clustering validates the numerical stability of the generation process.
 
-#
 
 Empirical CDF
 
@@ -62,7 +53,6 @@ Empirical CDF
 
 The cumulative distribution function follows a near‑linear trend consistent with the underlying uniform eigenvalue sampling. Minor deviations are within expected stochastic bounds for N=200 per block.
 
-#
 
 Prob3D Entropy per Block
 
@@ -81,11 +71,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-##
-
 Core Predictions: Validation Results
-
-###
 
 Prediction 1: 12‑Fold Angular Kernel
 
@@ -108,8 +94,6 @@ Prediction 1: 12‑Fold Angular Kernel
 
 ---
 
-###
-
 Prediction 2: Triplication A → AAA
 
 **Hypothesis:** Spectral triplication (concatenating three copies of the spectrum) preserves the energy scale (normed version) and maintains non‑collapsing peak structure in the angular histogram.
@@ -130,8 +114,6 @@ Prediction 2: Triplication A → AAA
 **STATUS: PASS** — Spectral triplication exactly preserves energy scaling and topological peak structure.
 
 ---
-
-###
 
 Prediction 3: Entropy Descent Ladder
 
@@ -164,8 +146,6 @@ Prediction 3: Entropy Descent Ladder
 
 ---
 
-###
-
 Prediction 4: Braid Closure at 12 Crossings (5C)
 
 **Hypothesis:** The B₃ braid group closure word `(σ₁σ₂)⁶` naturally emerges from the triplication structure, yielding exactly 12 crossings and a linking number Lk = 6.
@@ -184,8 +164,6 @@ Prediction 4: Braid Closure at 12 Crossings (5C)
 **STATUS: PASS** — All blocks consistently yield the B₃ closure `(σ₁σ₂)⁶` with exact linking number 6.
 
 ---
-
-###
 
 Prediction 5: Writhe Saturation and CWF Identity
 
@@ -219,9 +197,6 @@ Prediction 5: Writhe Saturation and CWF Identity
 **STATUS: PASS** — All blocks satisfy the Călugăreanu identity with Lk = 6, |Wr| bounded by 12, and Wr exhibits nontrivial, variable behavior.
 
 ---
-
-###
-
 Prediction 6: Unified Chain Consistency
 
 **Hypothesis:** All five preceding predictions are mutually consistent and form a unified chain from entropy generation to topological closure.
@@ -241,8 +216,6 @@ Prediction 6: Unified Chain Consistency
 
 **STATUS: PASS** — All six consistency checks pass. The prediction chain from entropy generation (P3) through braid closure (P4) to writhe saturation (P5) is **fully validated**.
 
-##
-
 Summary of Results
 
 | Prediction | Description | Status |
@@ -255,8 +228,6 @@ Summary of Results
 | **P6** | Unified chain consistency | PASS |
 
 **Overall Framework Validation: PASS**
-
-##
 
 Repository Structure
 
@@ -286,9 +257,6 @@ EDF-complete/
 └── logs/
     └── run_log_generate_results_v3_200.json
 ```
-
-##
-
 Running the Notebook
 ``bash
 # pip install numpy pandas matplotlib scipy
@@ -297,11 +265,6 @@ Running the Notebook
 or ```bash
 jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebook_executed.ipynb
 ```
-
----
-
-##
-
 References
 
 1. Melo, J. (2026). *EDF: Entropic Dimensional Framework*. Preprints.org.
@@ -310,22 +273,15 @@ References
 4. Birman, J. S. (1974). *Braids, Links, and Mapping Class Groups*. Princeton University Press.
 
 ---
-
-##
-
 License
 
 This project is provided for research and validation purposes under the terms specified by the original author, Jaime Melo.
 
 ---
-
-##
-
 Contributing
 
 Issues and pull requests are welcome. Please ensure that any modifications maintain the integrity of the core predictions and the reproducibility of the results.
 
 ---
-
 *Last updated: August 2026*
 
