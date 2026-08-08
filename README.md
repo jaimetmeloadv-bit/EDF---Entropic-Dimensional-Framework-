@@ -12,22 +12,28 @@ For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github
 
 Theoretical Foundations. The EDF framework posits that:
 
-1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
+1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies**
+   via triplication (A→AAA).
 
 
-2. **Shannon entropy** of normalized probability vectors decreases monotonically under coarse‑graining, reflecting information loss at larger scales.
+3. **Shannon entropy** of normalized probability vectors decreases monotonically
+   under coarse‑graining, reflecting information loss at larger scales.
 
 
-3. **Braid closures** in B₃ naturally yield linking numbers Lk = n/2 for n crossings, with the word `(σ₁σ₂)⁶` producing Lk = 6.
+5. **Braid closures** in B₃ naturally yield linking numbers Lk = n/2 for n crossings,
+   with the word `(σ₁σ₂)⁶` producing Lk = 6.
 
 
-4. **Călugăreanu identity** (Lk = Tw + Wr) provides a topological invariant across the chain, with |Wr| bounded by twice the number of crossings (|Wr| ≤ 12 for n=12).
+7. **Călugăreanu identity** (Lk = Tw + Wr) provides a topological invariant across the chain,
+   with |Wr| bounded by twice the number of crossings (|Wr| ≤ 12 for n=12).
 
 
-5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
+8. **12‑fold symmetry** emerges from the periodicity of the braid closure,
+   manifesting as uniform angular distribution.
 
 
-6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
+10. The **entropy‑topology correspondence** links information theory to knot theory
+    through the EDF framework.
 
 --
 
