@@ -1,6 +1,5 @@
-#
 Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
-#
+
 Theoretical Foundations. The EDF framework posits that:
 1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
 2. **Shannon entropy** of normalized probability vectors decreases monotonically under coarse‑graining, reflecting information loss at larger scales.
