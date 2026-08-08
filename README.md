@@ -1,4 +1,3 @@
-#
 Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
 #
 Theoretical Foundations. The EDF framework posits that:
@@ -70,7 +69,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-## 🎯 Core Predictions: Validation Results
+## Core Predictions: Validation Results
 
 ### Prediction 1: 12‑Fold Angular Kernel
 
@@ -89,7 +88,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 <img width="462" height="462" alt="prediction1_12fold_polar" src="https://github.com/user-attachments/assets/d90607b5-25d1-49ce-b051-96b8948258e8" />
 
-✅ **STATUS: PASS** — All 12 blocks are individually and globally consistent with uniform angular distribution.
+**STATUS: PASS** — All 12 blocks are individually and globally consistent with uniform angular distribution.
 
 ---
 
@@ -110,7 +109,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 <img width="924" height="616" alt="prediction2_triplication_panel" src="https://github.com/user-attachments/assets/69464308-9fbf-4701-a94f-7235a0f23516" />
 
-✅ **STATUS: PASS** — Spectral triplication exactly preserves energy scaling and topological peak structure.
+**STATUS: PASS** — Spectral triplication exactly preserves energy scaling and topological peak structure.
 
 ---
 
@@ -141,7 +140,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 <img width="660" height="396" alt="prediction3_entropy_descent_ladder" src="https://github.com/user-attachments/assets/90f2447b-c0b0-45b3-b81a-c93b8aa4441e" />
 
-✅ **STATUS: PASS** — Strict entropy descent observed across all 12 blocks and in the global mean curve. The final entropy approaches log₂(2) = 1 bit, consistent with binary coarse‑graining at group size 100.
+**STATUS: PASS** — Strict entropy descent observed across all 12 blocks and in the global mean curve. The final entropy approaches log₂(2) = 1 bit, consistent with binary coarse‑graining at group size 100.
 
 ---
 
@@ -160,7 +159,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 <img width="726" height="297" alt="prediction4_5C_structural_audit" src="https://github.com/user-attachments/assets/e6c049af-a6bf-4def-ae67-d466b57ce97e" />
 
-✅ **STATUS: PASS** — All blocks consistently yield the B₃ closure `(σ₁σ₂)⁶` with exact linking number 6.
+**STATUS: PASS** — All blocks consistently yield the B₃ closure `(σ₁σ₂)⁶` with exact linking number 6.
 
 ---
 
@@ -193,7 +192,7 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 | block_011 | 1.863 | 1.863 | 4.137 | 6.0 |
 | block_012 | 1.953 | 1.953 | 4.047 | 6.0 |
 
-✅ **STATUS: PASS** — All blocks satisfy the Călugăreanu identity with Lk = 6, |Wr| bounded by 12, and Wr exhibits nontrivial, variable behavior.
+**STATUS: PASS** — All blocks satisfy the Călugăreanu identity with Lk = 6, |Wr| bounded by 12, and Wr exhibits nontrivial, variable behavior.
 
 ---
 
@@ -214,11 +213,22 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 | Wr Bound Margin | 9.491 | ≥ 0 | ✅ PASS |
 | Wr Nontriviality | 2.065 | ≥ 1 | ✅ PASS |
 
-✅ **STATUS: PASS** — All six consistency checks pass. The prediction chain from entropy generation (P3) through braid closure (P4) to writhe saturation (P5) is **fully validated**.
+**STATUS: PASS** — All six consistency checks pass. The prediction chain from entropy generation (P3) through braid closure (P4) to writhe saturation (P5) is **fully validated**.
 
----
+## 📈 Summary of Results
 
-## 📁 Repository Structure
+| Prediction | Description | Status |
+|------------|-------------|--------|
+| **P1** | 12‑fold angular kernel | ✅ PASS |
+| **P2** | A→AAA triplication | ✅ PASS |
+| **P3** | Entropy descent ladder | ✅ PASS |
+| **P4** | B₃ closure at 12 crossings, Lk=6 | ✅ PASS |
+| **P5** | Writhe saturation, CWF identity | ✅ PASS |
+| **P6** | Unified chain consistency | ✅ PASS |
+
+**Overall Framework Validation: PASS**
+
+## Repository Structure
 
 ```
 EDF-complete/
@@ -247,40 +257,14 @@ EDF-complete/
     └── run_log_generate_results_v3_200.json
 ```
 
-## 🚀 Running the Notebook
-
-### Prerequisites
-
-```bash
-pip install numpy pandas matplotlib scipy
+## Running the Notebook
+``bash
+# pip install numpy pandas matplotlib scipy
+# jupyter notebook EDF-notebook.ipynb
 ```
-
-### Execution
-
-```bash
-jupyter notebook EDF-notebook.ipynb
-```
-
-Or run in headless mode:
-
-```bash
+or ```bash
 jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebook_executed.ipynb
 ```
-
----
-
-## 📈 Summary of Results
-
-| Prediction | Description | Status |
-|------------|-------------|--------|
-| **P1** | 12‑fold angular kernel | ✅ PASS |
-| **P2** | A→AAA triplication | ✅ PASS |
-| **P3** | Entropy descent ladder | ✅ PASS |
-| **P4** | B₃ closure at 12 crossings, Lk=6 | ✅ PASS |
-| **P5** | Writhe saturation, CWF identity | ✅ PASS |
-| **P6** | Unified chain consistency | ✅ PASS |
-
-**Overall Framework Validation: PASS**
 
 ---
 
@@ -307,16 +291,3 @@ Issues and pull requests are welcome. Please ensure that any modifications maint
 
 *Last updated: August 2026*
 
-To learn on the original Article, visit:
-
-[EDF: The Entropic Dimensional Framework, Jaime Melo, posted 30 December 2025](https://www.preprints.org/manuscript/202512.2652)
-
-[Physical Sciences](https://www.preprints.org/subject/browse/physical-sciences)
-[Theoretical Physics](https://www.preprints.org/subject/browse/physical-sciences/theoretical-physics)
-[DOI:10.20944/preprints202512.2652.v1](https://www.preprints.org/manuscript/202512.2652)
-
-##
- . The main branch gathers the raw detailed notebook coding and data.
-- [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-)
-
----
