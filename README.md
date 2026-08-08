@@ -1,5 +1,7 @@
-# Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
-# Theoretical Foundations. The EDF framework posits that:
+#
+Jupyter Notebook on the baselines and predictions of the manuscript [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652), Jaime Melo, December 2025 (Preprints.org)
+#
+Theoretical Foundations. The EDF framework posits that:
 1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
 2. **Shannon entropy** of normalized probability vectors decreases monotonically under coarse‑graining, reflecting information loss at larger scales.
 3. **Braid closures** in B₃ naturally yield linking numbers Lk = n/2 for n crossings, with the word `(σ₁σ₂)⁶` producing Lk = 6.
@@ -7,13 +9,15 @@
 5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
 6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
 
-# Overview
+#
+Overview
 The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 If you will, run it via nbviewer [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
 For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
 
-# Key Features
+#
+Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -27,11 +31,13 @@ For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github
 
 ---
 
-# Baseline Characterization
+#
+Baseline Characterization
 
 The baseline generation establishes a controlled synthetic environment derived from the EDF framework's core assumptions:
 
-# Spacing Distribution
+#
+Spacing Distribution
 
 <img width="420" height="300" alt="baseline_spacings_hist" src="https://github.com/user-attachments/assets/b148cf0c-f72c-48f5-ae7f-ff55c357a759" />
 
@@ -44,7 +50,8 @@ The baseline generation establishes a controlled synthetic environment derived f
 
 The spacing histogram exhibits the characteristic near‑uniform distribution expected from the EDF eigenvalue model. The absence of degeneracy clustering validates the numerical stability of the generation process.
 
-# Empirical CDF
+#
+Empirical CDF
 
 <img width="420" height="300" alt="baseline_spacings_cdf" src="https://github.com/user-attachments/assets/04d40206-8b15-4991-8570-be4a5da574f2" />
 
@@ -68,9 +75,11 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-## Core Predictions: Validation Results
+##
+Core Predictions: Validation Results
 
-### Prediction 1: 12‑Fold Angular Kernel
+###
+Prediction 1: 12‑Fold Angular Kernel
 
 **Hypothesis:** Eigenvalues mapped to phase angles θ ∈ [0, 2π) should distribute uniformly across 12 sectors, with each block individually consistent with circular uniformity.
 
@@ -91,7 +100,8 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-### Prediction 2: Triplication A → AAA
+###
+Prediction 2: Triplication A → AAA
 
 **Hypothesis:** Spectral triplication (concatenating three copies of the spectrum) preserves the energy scale (normed version) and maintains non‑collapsing peak structure in the angular histogram.
 
@@ -112,7 +122,8 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-### Prediction 3: Entropy Descent Ladder
+###
+Prediction 3: Entropy Descent Ladder
 
 **Hypothesis:** Coarse‑graining the Prob3D vector (grouping probabilities into bins of increasing size) yields a strictly monotonic decrease in Shannon entropy.
 
@@ -143,7 +154,8 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-### Prediction 4: Braid Closure at 12 Crossings (5C)
+###
+Prediction 4: Braid Closure at 12 Crossings (5C)
 
 **Hypothesis:** The B₃ braid group closure word `(σ₁σ₂)⁶` naturally emerges from the triplication structure, yielding exactly 12 crossings and a linking number Lk = 6.
 
@@ -162,7 +174,8 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-### Prediction 5: Writhe Saturation and CWF Identity
+###
+Prediction 5: Writhe Saturation and CWF Identity
 
 **Hypothesis:** The writhe (Wr) proxy, computed from 3D strand curves, is bounded by |Wr| ≤ 12 and satisfies the Călugăreanu identity **Lk = Tw + Wr** with the fixed Lk = 6 from Prediction 4.
 
@@ -195,7 +208,8 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 ---
 
-### Prediction 6: Unified Chain Consistency
+###
+Prediction 6: Unified Chain Consistency
 
 **Hypothesis:** All five preceding predictions are mutually consistent and form a unified chain from entropy generation to topological closure.
 
@@ -214,20 +228,22 @@ This normalized entropy of **0.922** (well above the 0.85 threshold) confirms th
 
 **STATUS: PASS** — All six consistency checks pass. The prediction chain from entropy generation (P3) through braid closure (P4) to writhe saturation (P5) is **fully validated**.
 
-## 📈 Summary of Results
+##
+Summary of Results
 
 | Prediction | Description | Status |
 |------------|-------------|--------|
-| **P1** | 12‑fold angular kernel | ✅ PASS |
-| **P2** | A→AAA triplication | ✅ PASS |
-| **P3** | Entropy descent ladder | ✅ PASS |
-| **P4** | B₃ closure at 12 crossings, Lk=6 | ✅ PASS |
-| **P5** | Writhe saturation, CWF identity | ✅ PASS |
-| **P6** | Unified chain consistency | ✅ PASS |
+| **P1** | 12‑fold angular kernel | PASS |
+| **P2** | A→AAA triplication | PASS |
+| **P3** | Entropy descent ladder | PASS |
+| **P4** | B₃ closure at 12 crossings, Lk=6 | PASS |
+| **P5** | Writhe saturation, CWF identity | PASS |
+| **P6** | Unified chain consistency | PASS |
 
 **Overall Framework Validation: PASS**
 
-## Repository Structure
+##
+Repository Structure
 
 ```
 EDF-complete/
@@ -256,7 +272,8 @@ EDF-complete/
     └── run_log_generate_results_v3_200.json
 ```
 
-## Running the Notebook
+##
+Running the Notebook
 ``bash
 # pip install numpy pandas matplotlib scipy
 # jupyter notebook EDF-notebook.ipynb
@@ -267,7 +284,8 @@ jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebo
 
 ---
 
-## 📚 References
+##
+References
 
 1. Melo, J. (2026). *EDF: Entropic Dimensional Framework*. Preprints.org.
 2. Călugăreanu, G. (1961). *Sur les classes d'isotopie des nœuds tridimensionnels et leurs invariants*. Czechoslovak Mathematical Journal.
@@ -276,13 +294,15 @@ jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebo
 
 ---
 
-## 📄 License
+##
+License
 
 This project is provided for research and validation purposes under the terms specified by the original author, Jaime Melo.
 
 ---
 
-## 🤝 Contributing
+##
+Contributing
 
 Issues and pull requests are welcome. Please ensure that any modifications maintain the integrity of the core predictions and the reproducibility of the results.
 
