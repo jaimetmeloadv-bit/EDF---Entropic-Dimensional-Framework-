@@ -1,13 +1,15 @@
 This is a brief analysis of the Jupyter Notebook referred to the manuscript
--
+--
 [The Entropic Dimensional Framework](https://www.preprints.org/manuscript/202512.2652),
 Jaime Melo, December 2025 (Preprints.org)
--
 
+--
 If you will, run the 'EDF-notebook.ipynb' via nbviewer by clicking here: [notebook](https://nbviewer.jupyter.org/github/jaimetmeloadv-bit/EDF/blob/notebook-pipeline/EDF-notebook.ipynb)
--
+--
+
 For detailed coding and data outputs, go: [EDF-notebook-pipeline](https://github.com/jaimetmeloadv-bit/EDF---Entropic-Dimensional-Framework-/tree/notebook-pipeline)
--
+--
+
 Theoretical Foundations. The EDF framework posits that:
 --
 1. **Eigenvalue spectra** from complex systems can be mapped to **3‑strand braid topologies** via triplication (A→AAA).
@@ -16,10 +18,11 @@ Theoretical Foundations. The EDF framework posits that:
 4. **Călugăreanu identity** (Lk = Tw + Wr) provides a topological invariant across the chain, with |Wr| bounded by twice the number of crossings (|Wr| ≤ 12 for n=12).
 5. **12‑fold symmetry** emerges from the periodicity of the braid closure, manifesting as uniform angular distribution.
 6. The **entropy‑topology correspondence** links information theory to knot theory through the EDF framework.
-   
+
 --
+
 Overview
--
+--
 The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 Key Features
@@ -215,12 +218,12 @@ Prediction 6: Unified Chain Consistency
 
 | Check | Value | Target | Status |
 |-------|-------|--------|--------|
-| S₀ Normalized Entropy | 0.922 | ≥ 0.85, ≤ 1.00 | ✅ PASS |
-| Entropy Drop dS | 6.049 | > 0 | ✅ PASS |
-| Crossings Mean | 12.000 | 12 | ✅ PASS |
-| Lk Mean | 6.000 | 6 | ✅ PASS |
-| Wr Bound Margin | 9.491 | ≥ 0 | ✅ PASS |
-| Wr Nontriviality | 2.065 | ≥ 1 | ✅ PASS |
+| S₀ Normalized Entropy | 0.922 | ≥ 0.85, ≤ 1.00 | PASS |
+| Entropy Drop dS | 6.049 | > 0 |  PASS |
+| Crossings Mean | 12.000 | 12 |  PASS |
+| Lk Mean | 6.000 | 6 |  PASS |
+| Wr Bound Margin | 9.491 | ≥ 0 |  PASS |
+| Wr Nontriviality | 2.065 | ≥ 1 |  PASS |
 
 **STATUS: PASS** — All six consistency checks pass. The prediction chain from entropy generation (P3) through braid closure (P4) to writhe saturation (P5) is **fully validated**.
 
