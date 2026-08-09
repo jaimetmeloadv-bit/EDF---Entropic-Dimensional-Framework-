@@ -42,7 +42,8 @@ Overview
 The notebook generates **200 eigenvalues across 12 independent blocks**, applies a sequence of six core predictions derived from the framework's theoretical foundations, and produces both quantitative metrics and visual validations.
 
 Key Features
--
+
+---
 | Feature | Description |
 |---------|-------------|
 | **Synthetic Spectrum Generation** | 12 blocks × 200 eigenvalues from uniform distribution |
@@ -52,7 +53,6 @@ Key Features
 | **Entropy Descent Ladder** | Monotonic entropy reduction under coarse‑graining |
 | **Braid Closure (5C)** | Structural validation at 12 crossings, Lk=6 |
 | **Writhe Saturation** | Călugăreanu identity Tw + Wr = Lk, with |Wr| ≤ 12 |
-
 ---
 ##
 Baseline Characterization
