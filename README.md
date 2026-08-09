@@ -43,7 +43,7 @@ The notebook generates **200 eigenvalues across 12 independent blocks**, applies
 
 Key Features
 
----
+
 | Feature | Description |
 |---------|-------------|
 | **Synthetic Spectrum Generation** | 12 blocks × 200 eigenvalues from uniform distribution |
@@ -53,8 +53,10 @@ Key Features
 | **Entropy Descent Ladder** | Monotonic entropy reduction under coarse‑graining |
 | **Braid Closure (5C)** | Structural validation at 12 crossings, Lk=6 |
 | **Writhe Saturation** | Călugăreanu identity Tw + Wr = Lk, with |Wr| ≤ 12 |
----
-##
+
+
+
+#
 Baseline Characterization
 
 The baseline generation establishes a controlled synthetic environment derived from the EDF framework's core assumptions:
