@@ -295,7 +295,7 @@ jupyter nbconvert --to notebook --execute EDF-notebook.ipynb --output EDF-notebo
 
 References
 
-1. Melo, J. (2026). *EDF: Entropic Dimensional Framework*. Preprints.org.
+1. Melo, J. (2025). *EDF: Entropic Dimensional Framework*. Preprints.org.
 2. Călugăreanu, G. (1961). *Sur les classes d'isotopie des nœuds tridimensionnels et leurs invariants*. Czechoslovak Mathematical Journal.
 3. Shannon, C. E. (1948). *A Mathematical Theory of Communication*. Bell System Technical Journal.
 4. Birman, J. S. (1974). *Braids, Links, and Mapping Class Groups*. Princeton University Press.
